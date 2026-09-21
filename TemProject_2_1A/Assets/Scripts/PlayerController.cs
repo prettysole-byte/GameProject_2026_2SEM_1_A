@@ -1,6 +1,13 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
+public enum PlayerState
+{
+    Noemal,
+    Pickup,
+}
+
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] private Animator animator;                  //애니메이터
@@ -16,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
     private CharacterController controller;                      //유니티의 캐릭터 컨트롤러 접근
     private float verticalVeolocity;                             //수평이동의 속도값 정의
+
 
     private void Awake()
     {
