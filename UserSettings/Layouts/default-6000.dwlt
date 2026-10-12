@@ -657,7 +657,7 @@ MonoBehaviour:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs:
-      - m_Data: 19944
+      - m_Data: 19674
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
@@ -787,7 +787,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Packages/com.unity.multiplayer.center/Tests/Runtime
+    - Packages/com.unity.multiplayer.center/Editor/OnBoarding
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -813,6 +813,15 @@ MonoBehaviour:
     - m_Data: 19820
     - m_Data: 19822
     - m_Data: 19824
+    - m_Data: 19826
+    - m_Data: 19828
+    - m_Data: 19830
+    - m_Data: 19832
+    - m_Data: 19834
+    - m_Data: 19836
+    - m_Data: 19838
+    - m_Data: 19840
+    - m_Data: 19842
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -839,26 +848,26 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 387}
     m_SelectedIDs:
-    - m_Data: 19944
+    - m_Data: 19674
     m_LastClickedID:
-      m_Data: 19944
+      m_Data: 19674
     m_ExpandedIDs:
     - m_Data: 0
     - m_Data: 19818
     - m_Data: 19820
     - m_Data: 19822
     - m_Data: 19824
-    - m_Data: 19914
-    - m_Data: 19920
-    - m_Data: 19922
-    - m_Data: 19924
-    - m_Data: 19926
-    - m_Data: 19928
-    - m_Data: 19930
-    - m_Data: 19942
-    - m_Data: 19944
+    - m_Data: 19826
+    - m_Data: 19828
+    - m_Data: 19830
+    - m_Data: 19832
+    - m_Data: 19834
+    - m_Data: 19836
+    - m_Data: 19838
+    - m_Data: 19840
+    - m_Data: 19842
     - m_Data: 2147483647
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -887,8 +896,8 @@ MonoBehaviour:
       m_ResourceFile: 
   m_ListAreaState:
     m_SelectedInstanceIDs:
-    - m_Data: 19944
-    m_LastClickedInstanceID: 19944
+    - m_Data: 19674
+    m_LastClickedInstanceID: 19674
     m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -1506,9 +1515,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 0, y: 3, z: 0}
+    m_Target: {x: 0, y: 1, z: -10}
     speed: 2
-    m_Value: {x: 0, y: 3, z: -0.00000059604645}
+    m_Value: {x: 0, y: 1, z: -10}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1558,9 +1567,9 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: -0.08717229, y: 0.89959055, z: -0.21045254, w: -0.3726226}
   m_Size:
-    m_Target: 5.2486453
+    m_Target: 7.30627
     speed: 2
-    m_Value: 5.4959636
+    m_Value: 7.6505446
   m_Ortho:
     m_Target: 0
     speed: 2

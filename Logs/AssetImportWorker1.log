@@ -1,11 +1,11 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.9f1 (7a9955a4f2fa) revision 8034645'; Using compiler version '194234433'; Build Type 'Release'
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2026-09-21T05:28:47.043436Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user" at "2026-10-12T05:02:24.5378238Z"
 OS: 'Windows 11  (10.0.26100) Education' Language: 'ko' Physical Memory: 16139 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-09-21T05:28:47Z
+Date: 2026-10-12T05:02:24Z
 
 COMMAND LINE ARGUMENTS:
 C:\Program Files\Unity\Hub\Editor\6000.3.9f1\Editor\Unity.exe
@@ -19,7 +19,7 @@ C:/Users/user/GameProject_2026_2SEM_1_A
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64670
+61772
 -licensingIpc
 LicenseClient-user
 -job-worker-count
@@ -67,12 +67,12 @@ C:/Users/user/GameProject_2026_2SEM_1_A
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-Player connection [5888]  Target information:
+Player connection [19080]  Target information:
 
-Player connection [5888]  * "[IP] 172.16.5.45 [Port] 0 [Flags] 2 [Guid] 960892249 [EditorId] 960892249 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GADCC4U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [19080]  * "[IP] 172.16.5.45 [Port] 0 [Flags] 2 [Guid] 331970197 [EditorId] 331970197 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-GADCC4U) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [5888] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [5888] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [19080] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [19080] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 9
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
@@ -100,55 +100,55 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56328
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.9f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002917 seconds.
-- Loaded All Assemblies, in  0.385 seconds
+Registered in 0.002821 seconds.
+- Loaded All Assemblies, in  0.387 seconds
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.17.4+4293ba1
-  Session Id:              c1bc6aa9873a48e8a1480b1fea6637ea
-  Correlation Id:          b780478d56e1090d66395a6167d6e6ee
-  External correlation Id: 9094440200099131336
+  Session Id:              89095573699449dbab16578d2417b564
+  Correlation Id:          fdba45854ede1055ca5279d039269147
+  External correlation Id: 5856023195684976385
   Machine Id:              8KUKowpKdIUkqueHFtYSjMLByaA=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user" (connect: 0.00s, validation: 0.00s, handshake: 0.82s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-notifications" at "2026-09-21T05:28:47.8743177Z"
-[Licensing::Module] Licensing Background thread has ended after 0.83s
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-user" (connect: 0.00s, validation: 0.00s, handshake: 0.84s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-user-notifications" at "2026-10-12T05:02:25.3797474Z"
+[Licensing::Module] Licensing Background thread has ended after 0.84s
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.340 seconds
-Domain Reload Profiling: 722ms
-	BeginReloadAssembly (133ms)
+- Finished resetting the current domain, in  0.353 seconds
+Domain Reload Profiling: 737ms
+	BeginReloadAssembly (135ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (32ms)
+	RebuildCommonClasses (31ms)
 	RebuildNativeTypeToScriptingClass (11ms)
 	initialDomainReloadingComplete (46ms)
 	LoadAllAssembliesAndSetupDomain (160ms)
-		LoadAssemblies (130ms)
+		LoadAssemblies (131ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
 		AnalyzeDomain (157ms)
 			TypeCache.Refresh (155ms)
 				TypeCache.ScanAssembly (143ms)
 			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (341ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (354ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (309ms)
+		SetupLoadedEditorAssemblies (325ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (50ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (49ms)
+			SetLoadedEditorAssemblies (4ms)
 			BeforeProcessingInitializeOnLoad (69ms)
-			ProcessInitializeOnLoadAttributes (130ms)
-			ProcessInitializeOnLoadMethodAttributes (57ms)
+			ProcessInitializeOnLoadAttributes (145ms)
+			ProcessInitializeOnLoadMethodAttributes (58ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -163,42 +163,42 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.257 seconds
+- Loaded All Assemblies, in  0.263 seconds
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.304 seconds
-Domain Reload Profiling: 558ms
-	BeginReloadAssembly (181ms)
+- Finished resetting the current domain, in  0.330 seconds
+Domain Reload Profiling: 589ms
+	BeginReloadAssembly (184ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (25ms)
-	RebuildCommonClasses (31ms)
-	RebuildNativeTypeToScriptingClass (11ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (10ms)
 	initialDomainReloadingComplete (20ms)
-	LoadAllAssembliesAndSetupDomain (11ms)
-		LoadAssemblies (116ms)
+	LoadAllAssembliesAndSetupDomain (12ms)
+		LoadAssemblies (113ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (7ms)
+		AnalyzeDomain (8ms)
 			TypeCache.Refresh (5ms)
 				TypeCache.ScanAssembly (1ms)
 			BuildScriptInfoCaches (1ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (304ms)
+	FinalizeReload (330ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (228ms)
+		SetupLoadedEditorAssemblies (242ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (2ms)
-			BeforeProcessingInitializeOnLoad (84ms)
-			ProcessInitializeOnLoadAttributes (104ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (91ms)
+			ProcessInitializeOnLoadAttributes (109ms)
 			ProcessInitializeOnLoadMethodAttributes (29ms)
-			AfterProcessingInitializeOnLoad (7ms)
+			AfterProcessingInitializeOnLoad (8ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (5ms)
@@ -206,15 +206,7 @@ Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 second
 Refreshing native plugins compatible for Editor in 0.00 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 64 unused Assets / (28.5 KB). Loaded Objects now: 655.
+Unloading 64 unused Assets / (28.4 KB). Loaded Objects now: 655.
 Memory consumption went from 67.9 MB to 67.8 MB.
-Total: 3.333400 ms (FindLiveObjects: 0.033000 ms CreateObjectMapping: 0.006500 ms MarkObjects: 3.229600 ms  DeleteObjects: 0.063100 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 590.745476 seconds.
-  path: Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow
-  artifactKey: Guid(7a7dcde6448847648629a13d746ce966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.multiplayer.center/Editor/MultiplayerCenterWindow using Guid(7a7dcde6448847648629a13d746ce966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5534fb2575a4781398dcc41f8f4aa171') in 0.0031986 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+Total: 3.200200 ms (FindLiveObjects: 0.039200 ms CreateObjectMapping: 0.006200 ms MarkObjects: 3.099900 ms  DeleteObjects: 0.054300 ms)
 
