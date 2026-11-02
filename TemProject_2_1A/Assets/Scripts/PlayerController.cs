@@ -6,6 +6,7 @@ public enum PlayerState
 {
     Noemal,
     Pickup,
+    invwntory
 }
 
 public class PlayerController : MonoBehaviour
@@ -103,5 +104,10 @@ public class PlayerController : MonoBehaviour
         }
 
         animator.SetFloat("speed", animationSpeed, 0.1f, Time.deltaTime);
+    }
+
+    public bool IsNormalState()
+    {
+        return currentState == PlayerState.Noemal;
     }
 }
